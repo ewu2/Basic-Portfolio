@@ -1,0 +1,279 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #dddddd;
+    margin: 0;
+    padding: 0;
+}
+
+.page-header {
+    margin: 0;
+    background-color: #ffffff;
+    width: 100%;
+    height: 75px;
+    padding: 20px;
+    border-bottom: 2px solid #cccccc;
+    margin-bottom: 15px;
+}
+
+.your-name {
+    position: absolute;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    margin: 0 auto;
+    width: 215px;
+    height: 73px;
+    padding: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+    top: 0;
+    left: 160px;
+}
+
+.page-tabs {
+    position: absolute;
+    margin: 0;
+    padding: 25px;
+    padding-right: 0px;
+    width: 275px;
+    height: 75px;
+    list-style: none;
+    top: 0;
+    right: 160px;
+}
+
+.tab-contact,
+.tab-portfolio,
+.tab-about {
+    float: right;
+    padding: 0px 15px 0px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #777777;
+    font-size: 15px;
+}
+
+.tab-portfolio {
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+}
+
+.tab-contact {
+    padding-right: 0px;
+}
+
+#about-container {
+    clear: both;
+    width: 960px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    padding-top: 0px;
+    border: 2px solid #dddddd;
+}
+
+#contact-container {
+    clear: both;
+    position: absolute;
+    width: 720px;
+    height: 450px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    padding-top: 0px;
+    border: 2px solid #dddddd;
+    left: 160px;
+}
+
+#connect-container {
+    position: absolute;
+    width: 220px;
+    height: 160px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    padding-top: 0px;
+    border: 2px solid #dddddd;
+    right: 160px;
+}
+
+#portfolio-container {
+    clear: both;
+    width: 960px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    padding-top: 0px;
+    border: 2px solid #dddddd;
+}
+
+#about-me {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#contact {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#connect {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#portfolio {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.social-icon {
+    margin: 3px;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+}
+
+.port-box {
+    float: left;
+    height: 185px;
+}
+
+.portfolio-img {
+    margin: 10px 20px 20px 20px;
+    padding: 0;
+    width: 260px;
+    height: 145px;
+}
+
+.project-title {
+    position: relative;
+    margin: 0;
+    padding: 15px 0px 15px 0px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 260px;
+    height: 46px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    bottom: 75px;
+    left: 20px;
+    opacity: .8;
+}
+
+hr {
+    border: 1px solid #dddddd;
+    width: 2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#contact-form {
+    height: 330px;
+}
+
+#name-label,
+#email-label,
+#message-label {
+    float: left;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    font-size: 15px;
+}
+
+#name-input,
+#email-input,
+#subject {
+    float: left;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    margin: 5px 0px 15px 0px;
+}
+
+::placeholder {
+    color: #cccccc;
+    opacity: 1;
+}
+
+#submit-button {
+    float: left;
+    width: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    border: none;
+}
+
+#submit-button:hover {
+    background-color: teal;
+}
+
+
+#bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+#bio-text {
+    margin: 0;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 280px;
+    /* overflow: auto; */
+    line-height: 2;
+}
+
+.page-footer {
+    clear: both;
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    background-color: #666666;
+    padding: 10px;
+    border-top: 7px solid #4aaaa5;
+    bottom: 0;
+    top: 650px;
+}
+
+.footer-text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 9px;
+}
