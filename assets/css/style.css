@@ -37,15 +37,15 @@ body {
 }
 
 .page-tabs {
-    position: absolute;
+    position: relative;
     margin: 0;
     padding: 25px;
     padding-right: 0px;
     width: 275px;
     height: 75px;
     list-style: none;
-    top: 0;
-    right: 160px;
+    left: 815px;
+    bottom: 18px;
 }
 
 .tab-contact,
@@ -71,7 +71,7 @@ body {
 #about-container {
     clear: both;
     width: 960px;
-    height: 500px;
+    height: 475px;
     margin: 0 auto;
     background-color: #ffffff;
     padding: 20px;
@@ -81,7 +81,7 @@ body {
 
 #contact-container {
     clear: both;
-    position: absolute;
+    position: relative;
     width: 720px;
     height: 450px;
     margin: 0 auto;
@@ -89,11 +89,11 @@ body {
     padding: 20px;
     padding-top: 0px;
     border: 2px solid #dddddd;
-    left: 160px;
+    right: 122px;
 }
 
 #connect-container {
-    position: absolute;
+    position: relative;
     width: 220px;
     height: 160px;
     margin: 0 auto;
@@ -101,7 +101,8 @@ body {
     padding: 20px;
     padding-top: 0px;
     border: 2px solid #dddddd;
-    right: 160px;
+    left: 370px;
+    bottom: 450px;
 }
 
 #portfolio-container {
@@ -250,22 +251,19 @@ hr {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     height: 280px;
-    /* overflow: auto; */
     line-height: 2;
 }
 
 .page-footer {
     clear: both;
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 70px;
     margin-bottom: 0;
-    margin-top: 20px;
+    margin-top: 50px;
     background-color: #666666;
     padding: 10px;
     border-top: 7px solid #4aaaa5;
-    bottom: 0;
-    top: 650px;
 }
 
 .footer-text {
